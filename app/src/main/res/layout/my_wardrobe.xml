@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/searchView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/search_form"
+        android:hint="@string/search"
+        android:inputType="text"
+        android:padding="7dp"
+        android:singleLine="true"
+        android:textColor="@color/hint"
+        android:textSize="14sp"
+        android:autofillHints="" />
+
+    <ImageButton
+        android:id="@+id/btnSearch"
+        android:layout_width="92dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/searchView"
+        android:layout_alignEnd="@+id/edtKeyword"
+        android:layout_alignBottom="@+id/recycler_view"
+        android:layout_marginStart="-92dp"
+        android:layout_marginTop="-33dp"
+        android:layout_marginEnd="-11dp"
+        android:layout_marginBottom="700dp"
+        android:layout_toEndOf="@+id/recycler_view"
+        android:layout_weight="3"
+        android:background="@color/apptheme_primary"
+        android:scaleType="center"
+        android:src="@drawable/ic_search" />
+
+    <TextView
+        android:id="@+id/marketplaceId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtKeyword"
+        android:layout_alignBottom="@id/searchView"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="-48dp"
+        android:text="@string/myWardrobeText"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/apptheme_primary_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/marketplaceId"
+        android:layout_marginTop="55dp" />
+
+
+</RelativeLayout>

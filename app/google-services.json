@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "470018705375",
+    "firebase_url": "https://justyle-1.firebaseio.com",
+    "project_id": "justyle-1",
+    "storage_bucket": "justyle-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470018705375:android:b4a408b9c24b47ed",
+        "android_client_info": {
+          "package_name": "com.pro.android.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470018705375-976uu6ud1icpochn1s3mrbcm995fdd6r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pro.android.firebasetest",
+            "certificate_hash": "84a33e83c1b3d1350df017ab1dc71b15b9c0f4e8"
+          }
+        },
+        {
+          "client_id": "470018705375-488j0d3oaf7rikp2trjc8edvmmhmj93v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5oZZlM49Eo_xV9mF8xtgg39XxNpyDqdo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470018705375-488j0d3oaf7rikp2trjc8edvmmhmj93v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
